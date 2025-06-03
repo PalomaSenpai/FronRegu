@@ -4,9 +4,9 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const menu = [
-  { label: 'Inicio', href: '/' },
+  { label: 'Inicio', href: '/transacciones' },
   { label: 'Dashboard', href: '/dashboard' },
-  { label: 'Configuración', href: '/settings' },
+  { label: 'Configuración', href: '/budgets' },
 ];
 
 export default function Sidebar() {
