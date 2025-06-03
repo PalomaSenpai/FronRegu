@@ -295,10 +295,7 @@ export default function BudgetsPage() {
                   </div>
                 )}
 
-                <div className={styles.budgetActions}>
-                  <button className={styles.editButton}>Editar</button>
-                  <button className={styles.deleteButton}>Eliminar</button>
-                </div>
+                
               </div>
             );
           })

@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { FiPlus, FiEdit, FiTrash2, FiDollarSign, FiCalendar, FiCreditCard, FiType, FiAlertTriangle, FiFilter, FiX } from 'react-icons/fi';
 import styles from './transactions.module.css';
+import ImageUploader from './ImageUploader';
 
 export default function TransactionsPage() {
   const [transactions, setTransactions] = useState([]);
@@ -427,6 +428,7 @@ export default function TransactionsPage() {
     <div className={styles.container}>
       <div className={styles.header}>
         <h1>Gestión de Transacciones</h1>
+        <ImageUploader/>
         <div className={styles.headerButtons}>
           <button 
             className={`${styles.filterButton} ${showFilters ? styles.active : ''}`}

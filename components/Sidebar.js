@@ -7,6 +7,7 @@ const menu = [
   { label: 'Inicio', href: '/transacciones' },
   { label: 'Dashboard', href: '/dashboard' },
   { label: 'Configuración', href: '/budgets' },
+  { label: 'Login', href: '/login' },
 ];
 
 export default function Sidebar() {
